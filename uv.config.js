@@ -1,10 +1,10 @@
 self.__uv$config = {
-    prefix: '/static/tiw',
+    prefix: 'https://gsprequest.camdvr.org/gsp/',
     bare:'https://bare.benrogo.net',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
-    handler: '/static/uv/uv.handler.js',
-    bundle: '/static/uv/uv.bundle.js',
-    config: '/static/uv/uv.config.js',
-    sw: '/static/uv/uv.sw.js',
+    handler: 'https://gsprequest.camdvr.org/uv.handler.js',
+    bundle: 'https://gsprequest.camdvr.org/uv.bundle.js',
+    config: 'https://gsprequest.camdvr.org/uv.config.js',
+    sw: 'https://gsprequest.camdvr.org/uv.sw.js',
 };
