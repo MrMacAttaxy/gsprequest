@@ -1,5 +1,5 @@
-importScripts('https://gsprequest.camdvr.org/uv.bundle.js');
-importScripts('https://gsprequest.camdvr.org/uv.config.js');
+importScripts('uv.bundle.js');
+importScripts(uv.config.js');
 
 class UVServiceWorker extends EventEmitter {     
     constructor(config = __uv$config) {
