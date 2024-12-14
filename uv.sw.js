@@ -1,10 +1,10 @@
-importScripts('/static/uv/uv.bundle.js');
-importScripts('/static/uv/uv.config.js');
+importScripts('https://gsprequest.camdvr.org/uv.bundle.js');
+importScripts('https://gsprequest.camdvr.org/uv.config.js');
 
 class UVServiceWorker extends EventEmitter {     
     constructor(config = __uv$config) {
         super();
-        if (!config.bare) config.bare = '/bare/';
+        if (!config.bare) config.bare = 'https://gsprequest.camdvr.org/bare/';
         this.addresses = typeof config.bare === 'string' ? [ new URL(config.bare, location) ] : config.bare.map(str => new URL(str, location));
         this.headers = {
             csp: [
