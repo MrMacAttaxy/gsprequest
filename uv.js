@@ -1,6 +1,6 @@
-importScripts('https://gsprequest.camdvr.org/uv.bundle.js');
-importScripts('https://gsprequest.camdvr.org/uv.config.js');
-importScripts('https://gsprequest.camdvr.org/uv.sw.js');
+importScripts('uv.bundle.js');
+importScripts('uv.config.js');
+importScripts('uv.sw.js');
 importScripts('https://arc.io/arc-sw-core.js');
 
 const sw = new UVServiceWorker();
