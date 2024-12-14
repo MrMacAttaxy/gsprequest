@@ -1,4 +1,4 @@
-importScripts("https://gsprequest.camdvr.org/uv.sw.js");
+importScripts("uv.sw.js");
 
 const sw = new UVServiceWorker();
 
