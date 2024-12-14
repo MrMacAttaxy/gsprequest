@@ -1,5 +1,5 @@
 self.__uv$config = {
-    prefix: '/gsp/',
+    prefix: '/',
     bare:'https://bare.benrogo.net',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
